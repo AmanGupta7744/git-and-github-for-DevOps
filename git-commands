@@ -1,0 +1,14 @@
+1. git init
+-> initialize an empty git repositories
+
+2. got status
+-> can check status of the files whether it is tracked or untracked 
+
+3. git add
+-> used to add the files from untracked to staged 
+
+4. got commit -m "message"
+-> used to move file from staged to tracked 
+
+5. git restore filename 
+-> used to recover the deleted files
