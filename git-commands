@@ -1,14 +1,29 @@
 1. git init
--> initialize an empty git repositories
+   -> initialize an empty git repositories
 
 2. got status
--> can check status of the files whether it is tracked or untracked 
+   -> can check status of the files whether it is tracked or untracked
 
 3. git add
--> used to add the files from untracked to staged 
+   -> used to add the files from untracked to staged
 
 4. got commit -m "message"
--> used to move file from staged to tracked 
+   -> used to move file from staged to tracked
 
-5. git restore filename 
--> used to recover the deleted files
+5. git restore filename
+   -> used to recover the deleted files
+
+6. git remote add origin https://github.com/AmanGupta7744/git-and-github-for-DevOps.git
+   -> add the origin
+
+7. git remote -v
+   -> shows the github url for push and fetch
+
+8. git remote set-url origin https://generated-token@github.com/AmanGupta7744/git-and-github-for-DevOps.git
+   -> tell the github to set the origin with the generated token
+
+9. git push
+   -> push the code from local system to github remote repo
+
+10. git push origin master
+    -> push the code to branch master
