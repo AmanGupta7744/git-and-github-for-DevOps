@@ -27,3 +27,6 @@
 
 10. git push origin master
     -> push the code to branch master
+
+11. git pull 
+    -> pull the code from github remote repo to local system 
